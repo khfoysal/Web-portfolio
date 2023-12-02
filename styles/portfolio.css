@@ -32,12 +32,13 @@ nav {
     padding:15px,35px;
 }
 
-/* nav related styles */
+
 nav {
 
     display: flex;
     justify-content: space-between ;
     align-items:center;
+    margin:0 200px;
 }
 nav > ul {
     display:flex;
@@ -53,3 +54,16 @@ nav a{
     color:#181818;
 }
 
+
+/* header related styles */
+.header{
+    background-color:whitesmoke ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items:center;
+}
+.banner .profile-pic{
+    width:500px;
+}
