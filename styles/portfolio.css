@@ -130,6 +130,9 @@ display:flex;
 justify-content: space-around;
 
 }
+.info-description{
+    gap:3px;
+}
 
 .about-info{
 
@@ -241,4 +244,55 @@ footer{
 
 
 }
+
+/* responsive styles */
+/* mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+
+    }
+
+    nav, nav >ul,.banner,.skills-container,.resume-container,.about-info-container,footer{
+        flex-direction: column;
+    }
+    nav >ul{
+        gap:5px;
+    }
+    .banner .profile-pic {
+        width:100%;
+    }
+    .banner,
+    #What -i-d0-description{
+        padding: 20px;
+    }
+    footer,.about{
+        padding: 10px;
+    }
+    .footer-colum {
+        width:100%;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .contact input[type="text"],.contact input[type="email"],textarea{
+
+        width:80%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:960px) {
+
+    footer{
+        padding: 30px;
+    }
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+
+}
+
+    
 
